@@ -4,34 +4,190 @@
     "version": "e1adb5fc"
   },
   "products": [
-    { "id": 1, "name": "Book A", "category": "books", "price": 1000.00, "stock": 10, "rating": 4.5 },
-    { "id": 2, "name": "Book B", "category": "books", "price": 2000.00, "stock": 5, "rating": 4.2 },
-    { "id": 3, "name": "Book C", "category": "books", "price": 3000.00, "stock": 4, "rating": 4.8 },
-    { "id": 4, "name": "Book D", "category": "books", "price": 1500.04, "stock": 12, "rating": 4.0 },
-
-    { "id": 5, "name": "Laptop", "category": "electronics", "price": 50000, "stock": 3, "rating": 4.7 },
-    { "id": 6, "name": "Phone", "category": "electronics", "price": 20000, "stock": 5, "rating": 4.6 },
-    { "id": 7, "name": "Headphones", "category": "electronics", "price": 3000, "stock": 10, "rating": 4.3 },
-    { "id": 8, "name": "Monitor", "category": "electronics", "price": 15000, "stock": 4, "rating": 4.4 },
-
-    { "id": 9, "name": "Chair", "category": "furniture", "price": 5000, "stock": 6, "rating": 4.1 },
-    { "id": 10, "name": "Table", "category": "furniture", "price": 8000, "stock": 2, "rating": 4.0 },
-    { "id": 11, "name": "Sofa", "category": "furniture", "price": 20000, "stock": 1, "rating": 4.5 },
-    { "id": 12, "name": "Shelf", "category": "furniture", "price": 4000, "stock": 7, "rating": 4.2 },
-
-    { "id": 13, "name": "Shoes", "category": "fashion", "price": 3000, "stock": 8, "rating": 4.1 },
-    { "id": 14, "name": "Jacket", "category": "fashion", "price": 6000, "stock": 3, "rating": 4.3 },
-    { "id": 15, "name": "Watch", "category": "fashion", "price": 10000, "stock": 4, "rating": 4.6 },
-    { "id": 16, "name": "Bag", "category": "fashion", "price": 2500, "stock": 9, "rating": 4.2 },
-
-    { "id": 17, "name": "Toy Car", "category": "toys", "price": 1500, "stock": 12, "rating": 4.4 },
-    { "id": 18, "name": "Board Game", "category": "toys", "price": 2000, "stock": 6, "rating": 4.5 },
-    { "id": 19, "name": "Puzzle", "category": "toys", "price": 800, "stock": 15, "rating": 4.1 },
-    { "id": 20, "name": "Doll", "category": "toys", "price": 1200, "stock": 7, "rating": 4.3 },
-
-    { "id": 21, "name": "Mixer", "category": "appliances", "price": 3000, "stock": 5, "rating": 4.2 },
-    { "id": 22, "name": "Oven", "category": "appliances", "price": 7000, "stock": 2, "rating": 4.4 },
-    { "id": 23, "name": "Fan", "category": "appliances", "price": 2500, "stock": 10, "rating": 4.0 }
+    {
+      "id": "prod-e1adb5fc-001",
+      "name": "Elite Item 1",
+      "category": "sports",
+      "price": 295.22,
+      "stock": 189,
+      "rating": 4.7
+    },
+    {
+      "id": "prod-e1adb5fc-002",
+      "name": "Standard Item 2",
+      "category": "electronics",
+      "price": 422.4,
+      "stock": 3,
+      "rating": 2.1
+    },
+    {
+      "id": "prod-e1adb5fc-003",
+      "name": "Pro Item 3",
+      "category": "home",
+      "price": 94.8,
+      "stock": 98,
+      "rating": 2.6
+    },
+    {
+      "id": "prod-e1adb5fc-004",
+      "name": "Basic Item 4",
+      "category": "home",
+      "price": 456.47,
+      "stock": 80,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-e1adb5fc-005",
+      "name": "Basic Item 5",
+      "category": "electronics",
+      "price": 197.81,
+      "stock": 90,
+      "rating": 3.3
+    },
+    {
+      "id": "prod-e1adb5fc-006",
+      "name": "Elite Item 6",
+      "category": "sports",
+      "price": 284.64,
+      "stock": 152,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-e1adb5fc-007",
+      "name": "Pro Item 7",
+      "category": "electronics",
+      "price": 321.85,
+      "stock": 0,
+      "rating": 2.6
+    },
+    {
+      "id": "prod-e1adb5fc-008",
+      "name": "Standard Item 8",
+      "category": "clothing",
+      "price": 180.56,
+      "stock": 161,
+      "rating": 4
+    },
+    {
+      "id": "prod-e1adb5fc-009",
+      "name": "Elite Item 9",
+      "category": "sports",
+      "price": 83.55,
+      "stock": 66,
+      "rating": 2.9
+    },
+    {
+      "id": "prod-e1adb5fc-010",
+      "name": "Pro Item 10",
+      "category": "sports",
+      "price": 348.47,
+      "stock": 64,
+      "rating": 2.8
+    },
+    {
+      "id": "prod-e1adb5fc-011",
+      "name": "Elite Item 11",
+      "category": "home",
+      "price": 243.52,
+      "stock": 33,
+      "rating": 4.3
+    },
+    {
+      "id": "prod-e1adb5fc-012",
+      "name": "Basic Item 12",
+      "category": "books",
+      "price": 67.98,
+      "stock": 39,
+      "rating": 1.6
+    },
+    {
+      "id": "prod-e1adb5fc-013",
+      "name": "Elite Item 13",
+      "category": "electronics",
+      "price": 466.01,
+      "stock": 119,
+      "rating": 1
+    },
+    {
+      "id": "prod-e1adb5fc-014",
+      "name": "Basic Item 14",
+      "category": "books",
+      "price": 190.65,
+      "stock": 33,
+      "rating": 4.3
+    },
+    {
+      "id": "prod-e1adb5fc-015",
+      "name": "Premium Item 15",
+      "category": "books",
+      "price": 183.13,
+      "stock": 181,
+      "rating": 2.1
+    },
+    {
+      "id": "prod-e1adb5fc-016",
+      "name": "Pro Item 16",
+      "category": "sports",
+      "price": 191.73,
+      "stock": 96,
+      "rating": 2.7
+    },
+    {
+      "id": "prod-e1adb5fc-017",
+      "name": "Basic Item 17",
+      "category": "home",
+      "price": 150.35,
+      "stock": 96,
+      "rating": 1.3
+    },
+    {
+      "id": "prod-e1adb5fc-018",
+      "name": "Elite Item 18",
+      "category": "clothing",
+      "price": 308.92,
+      "stock": 20,
+      "rating": 2.6
+    },
+    {
+      "id": "prod-e1adb5fc-019",
+      "name": "Elite Item 19",
+      "category": "home",
+      "price": 44.17,
+      "stock": 184,
+      "rating": 3.9
+    },
+    {
+      "id": "prod-e1adb5fc-020",
+      "name": "Standard Item 20",
+      "category": "books",
+      "price": 214.99,
+      "stock": 104,
+      "rating": 3.8
+    },
+    {
+      "id": "prod-e1adb5fc-021",
+      "name": "Standard Item 21",
+      "category": "home",
+      "price": 185.72,
+      "stock": 158,
+      "rating": 4.3
+    },
+    {
+      "id": "prod-e1adb5fc-022",
+      "name": "Standard Item 22",
+      "category": "electronics",
+      "price": 319.14,
+      "stock": 55,
+      "rating": 4.8
+    },
+    {
+      "id": "prod-e1adb5fc-023",
+      "name": "Premium Item 23",
+      "category": "electronics",
+      "price": 54.33,
+      "stock": 77,
+      "rating": 3.4
+    }
   ],
   "aggregations": {
     "books": {
