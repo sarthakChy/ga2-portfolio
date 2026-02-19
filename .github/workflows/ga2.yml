@@ -1,0 +1,11 @@
+name: GA2 Basic Action
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2002626@ds.study.iitm.ac.in
+        run: echo "GA2 workflow running"
