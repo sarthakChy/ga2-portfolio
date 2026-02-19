@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Cache dependencies
+      - name: cache-step
         id: cache
         uses: actions/cache@v4
         with:
@@ -18,4 +18,5 @@ jobs:
           key: cache-2b3bdae
 
       - name: prime-cache-2b3bdae
-        run: echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
+        run: echo "${{ steps.cache.outputs.cache-hit }}"
+
