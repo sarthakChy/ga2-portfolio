@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "email": "23f2002626@ds.study.iitm.ac.in",
+    "version": "e1adb5fc"
+  },
+  "products": [
+    { "id": 1, "name": "Book A", "category": "books", "price": 1000.00, "stock": 10, "rating": 4.5 },
+    { "id": 2, "name": "Book B", "category": "books", "price": 2000.00, "stock": 5, "rating": 4.2 },
+    { "id": 3, "name": "Book C", "category": "books", "price": 3000.00, "stock": 4, "rating": 4.8 },
+    { "id": 4, "name": "Book D", "category": "books", "price": 1500.04, "stock": 12, "rating": 4.0 },
+
+    { "id": 5, "name": "Laptop", "category": "electronics", "price": 50000, "stock": 3, "rating": 4.7 },
+    { "id": 6, "name": "Phone", "category": "electronics", "price": 20000, "stock": 5, "rating": 4.6 },
+    { "id": 7, "name": "Headphones", "category": "electronics", "price": 3000, "stock": 10, "rating": 4.3 },
+    { "id": 8, "name": "Monitor", "category": "electronics", "price": 15000, "stock": 4, "rating": 4.4 },
+
+    { "id": 9, "name": "Chair", "category": "furniture", "price": 5000, "stock": 6, "rating": 4.1 },
+    { "id": 10, "name": "Table", "category": "furniture", "price": 8000, "stock": 2, "rating": 4.0 },
+    { "id": 11, "name": "Sofa", "category": "furniture", "price": 20000, "stock": 1, "rating": 4.5 },
+    { "id": 12, "name": "Shelf", "category": "furniture", "price": 4000, "stock": 7, "rating": 4.2 },
+
+    { "id": 13, "name": "Shoes", "category": "fashion", "price": 3000, "stock": 8, "rating": 4.1 },
+    { "id": 14, "name": "Jacket", "category": "fashion", "price": 6000, "stock": 3, "rating": 4.3 },
+    { "id": 15, "name": "Watch", "category": "fashion", "price": 10000, "stock": 4, "rating": 4.6 },
+    { "id": 16, "name": "Bag", "category": "fashion", "price": 2500, "stock": 9, "rating": 4.2 },
+
+    { "id": 17, "name": "Toy Car", "category": "toys", "price": 1500, "stock": 12, "rating": 4.4 },
+    { "id": 18, "name": "Board Game", "category": "toys", "price": 2000, "stock": 6, "rating": 4.5 },
+    { "id": 19, "name": "Puzzle", "category": "toys", "price": 800, "stock": 15, "rating": 4.1 },
+    { "id": 20, "name": "Doll", "category": "toys", "price": 1200, "stock": 7, "rating": 4.3 },
+
+    { "id": 21, "name": "Mixer", "category": "appliances", "price": 3000, "stock": 5, "rating": 4.2 },
+    { "id": 22, "name": "Oven", "category": "appliances", "price": 7000, "stock": 2, "rating": 4.4 },
+    { "id": 23, "name": "Fan", "category": "appliances", "price": 2500, "stock": 10, "rating": 4.0 }
+  ],
+  "aggregations": {
+    "books": {
+      "count": 4,
+      "inventoryValue": 64448.16
+    }
+  }
+}
+
