@@ -1,0 +1,21 @@
+name: GA2 Cache Workflow
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache
+          key: cache-2b3bdae
+
+      - name: prime-cache-2b3bdae
+        run: echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
